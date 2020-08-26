@@ -78,7 +78,7 @@ public class Storage {
             newList.flush();
             newList.close();
         } catch (Exception e) {
-            throw new MocoException("Error saving update to task list");
+            throw new MocoException("Error saving update to task list :(");
         }
     }
 }
